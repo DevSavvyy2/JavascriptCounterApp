@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .app {
+            background-color: powderblue;
+            padding: 10em;
+        }
+        .icons {
+            text-align: center;
+        }
+        button {
+            padding: 1em;
+            font-size: 16px;
+            font-weight: bolder;
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+        }
+        svg {
+            padding-top: 1.5em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="app">
+        <h1>Javascript Counter App</h1>
+        <div class="icons">
+            <svg id="increase-btn" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+              
+              <button id="number">0</button>
+
+              <svg id="decrease-btn" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+              </svg>
+        </div>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
